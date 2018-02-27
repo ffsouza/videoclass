@@ -1,0 +1,137 @@
+name: "model"
+model_type: FEED_FORWARD_NET
+hyperparams {
+  base_epsilon: 1.0
+  activation: LOGISTIC
+  select_model_using_acc: true
+}
+
+layer {
+  name: "input_layer"
+  dimensions: 435
+  is_input: true
+  loss_function: SQUARED_LOSS
+  param {
+    name: "bias"
+    initialization: CONSTANT
+  }
+  hyperparams {
+    activation: LINEAR
+    dropout: false
+  }
+  data_field {
+    train: "train_data"
+    validation: "valid_data"
+  }
+  performance_stats {
+    compute_error: true
+  }
+}
+
+layer {
+  name: "output_layer"
+  dimensions: 1
+  numlabels: 101
+  param {
+    name: "bias"
+    initialization: CONSTANT
+  }
+  hyperparams{
+    dropout: false
+    activation: SOFTMAX
+    sparsity: false
+  }
+  is_output: true
+  loss_function: CROSS_ENTROPY
+  data_field {
+    train: "train_labels"
+    validation: "valid_labels"
+  }
+  performance_stats {
+    compute_cross_entropy: true
+    compute_correct_preds: true
+  }
+}
+
+
+layer {
+  name: "hidden1"
+  dimensions: 1024
+  param {
+    name: "bias"
+    initialization: CONSTANT
+  }
+  hyperparams{
+    dropout: false
+    activation: LOGISTIC
+  }
+}
+
+layer {
+  name: "hidden2"
+  dimensions: 1024
+  param {
+    name: "bias"
+    initialization: CONSTANT
+  }
+  hyperparams{
+    dropout: false
+    activation: LOGISTIC
+  }
+}
+
+
+layer {
+  name: "hidden3"
+  dimensions: 1024
+  param {
+    name: "bias"
+    initialization: CONSTANT
+  }
+  hyperparams{
+    dropout: false
+    activation: LOGISTIC
+  }
+}
+
+
+edge {
+  node1: "input_layer"
+  node2: "hidden1"
+  param {
+    name: "weight"
+    initialization: DENSE_GAUSSIAN_SQRT_FAN_IN
+    sigma: 1.0
+  }
+}
+
+edge {
+  node1: "hidden1"
+  node2: "hidden2"
+  param {
+    name: "weight"
+    initialization: DENSE_GAUSSIAN_SQRT_FAN_IN
+    sigma: 1.0
+  }
+}
+
+edge {
+  node1: "hidden2"
+  node2: "hidden3"
+  param {
+    name: "weight"
+    initialization: DENSE_GAUSSIAN_SQRT_FAN_IN
+    sigma: 1.0
+  }
+}
+
+
+edge {
+  node1: "hidden3"
+  node2: "output_layer"
+  param {
+    name: "weight"
+    initialization: DENSE_GAUSSIAN_SQRT_FAN_IN
+    sigma: 1.0
+  }
+}

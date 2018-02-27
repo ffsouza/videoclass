@@ -1,0 +1,1455 @@
+./HOG_NPY/train_per_class_npy_file_list.txt
+../data/train
+(10100, 437)
+(15800, 437)
+(25673, 437)
+(35373, 437)
+(43073, 437)
+(54273, 437)
+(64973, 437)
+(74773, 437)
+(84173, 437)
+(95373, 437)
+9.0
+0.0
+9.0
+0.0
+9.0
+0.0
+9.0
+0.0
+
+9
+1373
+338.157
+
+0
+44
+-0.996753
+
+16.905
+-16.1639
+435
+435
+(95373, 435)
+../data/train
+N_packets: 95
+Remain: 373
+L: 0
+U: 1000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_00
+Stored on: ../data/train/trainall_labels_00
+Stored on: ../data/train/trainall_data_00
+Previus k: 0
+L: 1000
+U: 2000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_01
+Stored on: ../data/train/trainall_labels_01
+Stored on: ../data/train/trainall_data_01
+Previus k: 1
+L: 2000
+U: 3000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_02
+Stored on: ../data/train/trainall_labels_02
+Stored on: ../data/train/trainall_data_02
+Previus k: 2
+L: 3000
+U: 4000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_03
+Stored on: ../data/train/trainall_labels_03
+Stored on: ../data/train/trainall_data_03
+Previus k: 3
+L: 4000
+U: 5000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_04
+Stored on: ../data/train/trainall_labels_04
+Stored on: ../data/train/trainall_data_04
+Previus k: 4
+L: 5000
+U: 6000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_05
+Stored on: ../data/train/trainall_labels_05
+Stored on: ../data/train/trainall_data_05
+Previus k: 5
+L: 6000
+U: 7000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_06
+Stored on: ../data/train/trainall_labels_06
+Stored on: ../data/train/trainall_data_06
+Previus k: 6
+L: 7000
+U: 8000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_07
+Stored on: ../data/train/trainall_labels_07
+Stored on: ../data/train/trainall_data_07
+Previus k: 7
+L: 8000
+U: 9000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_08
+Stored on: ../data/train/trainall_labels_08
+Stored on: ../data/train/trainall_data_08
+Previus k: 8
+L: 9000
+U: 10000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_09
+Stored on: ../data/train/trainall_labels_09
+Stored on: ../data/train/trainall_data_09
+Previus k: 9
+L: 10000
+U: 11000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_10
+Stored on: ../data/train/trainall_labels_10
+Stored on: ../data/train/trainall_data_10
+Previus k: 10
+L: 11000
+U: 12000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_11
+Stored on: ../data/train/trainall_labels_11
+Stored on: ../data/train/trainall_data_11
+Previus k: 11
+L: 12000
+U: 13000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_12
+Stored on: ../data/train/trainall_labels_12
+Stored on: ../data/train/trainall_data_12
+Previus k: 12
+L: 13000
+U: 14000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_13
+Stored on: ../data/train/trainall_labels_13
+Stored on: ../data/train/trainall_data_13
+Previus k: 13
+L: 14000
+U: 15000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_14
+Stored on: ../data/train/trainall_labels_14
+Stored on: ../data/train/trainall_data_14
+Previus k: 14
+L: 15000
+U: 16000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_15
+Stored on: ../data/train/trainall_labels_15
+Stored on: ../data/train/trainall_data_15
+Previus k: 15
+L: 16000
+U: 17000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_16
+Stored on: ../data/train/trainall_labels_16
+Stored on: ../data/train/trainall_data_16
+Previus k: 16
+L: 17000
+U: 18000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_17
+Stored on: ../data/train/trainall_labels_17
+Stored on: ../data/train/trainall_data_17
+Previus k: 17
+L: 18000
+U: 19000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_18
+Stored on: ../data/train/trainall_labels_18
+Stored on: ../data/train/trainall_data_18
+Previus k: 18
+L: 19000
+U: 20000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_19
+Stored on: ../data/train/trainall_labels_19
+Stored on: ../data/train/trainall_data_19
+Previus k: 19
+L: 20000
+U: 21000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_20
+Stored on: ../data/train/trainall_labels_20
+Stored on: ../data/train/trainall_data_20
+Previus k: 20
+L: 21000
+U: 22000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_21
+Stored on: ../data/train/trainall_labels_21
+Stored on: ../data/train/trainall_data_21
+Previus k: 21
+L: 22000
+U: 23000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_22
+Stored on: ../data/train/trainall_labels_22
+Stored on: ../data/train/trainall_data_22
+Previus k: 22
+L: 23000
+U: 24000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_23
+Stored on: ../data/train/trainall_labels_23
+Stored on: ../data/train/trainall_data_23
+Previus k: 23
+L: 24000
+U: 25000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_24
+Stored on: ../data/train/trainall_labels_24
+Stored on: ../data/train/trainall_data_24
+Previus k: 24
+L: 25000
+U: 26000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_25
+Stored on: ../data/train/trainall_labels_25
+Stored on: ../data/train/trainall_data_25
+Previus k: 25
+L: 26000
+U: 27000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_26
+Stored on: ../data/train/trainall_labels_26
+Stored on: ../data/train/trainall_data_26
+Previus k: 26
+L: 27000
+U: 28000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_27
+Stored on: ../data/train/trainall_labels_27
+Stored on: ../data/train/trainall_data_27
+Previus k: 27
+L: 28000
+U: 29000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_28
+Stored on: ../data/train/trainall_labels_28
+Stored on: ../data/train/trainall_data_28
+Previus k: 28
+L: 29000
+U: 30000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_29
+Stored on: ../data/train/trainall_labels_29
+Stored on: ../data/train/trainall_data_29
+Previus k: 29
+L: 30000
+U: 31000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_30
+Stored on: ../data/train/trainall_labels_30
+Stored on: ../data/train/trainall_data_30
+Previus k: 30
+L: 31000
+U: 32000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_31
+Stored on: ../data/train/trainall_labels_31
+Stored on: ../data/train/trainall_data_31
+Previus k: 31
+L: 32000
+U: 33000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_32
+Stored on: ../data/train/trainall_labels_32
+Stored on: ../data/train/trainall_data_32
+Previus k: 32
+L: 33000
+U: 34000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_33
+Stored on: ../data/train/trainall_labels_33
+Stored on: ../data/train/trainall_data_33
+Previus k: 33
+L: 34000
+U: 35000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_34
+Stored on: ../data/train/trainall_labels_34
+Stored on: ../data/train/trainall_data_34
+Previus k: 34
+L: 35000
+U: 36000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_35
+Stored on: ../data/train/trainall_labels_35
+Stored on: ../data/train/trainall_data_35
+Previus k: 35
+L: 36000
+U: 37000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_36
+Stored on: ../data/train/trainall_labels_36
+Stored on: ../data/train/trainall_data_36
+Previus k: 36
+L: 37000
+U: 38000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_37
+Stored on: ../data/train/trainall_labels_37
+Stored on: ../data/train/trainall_data_37
+Previus k: 37
+L: 38000
+U: 39000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_38
+Stored on: ../data/train/trainall_labels_38
+Stored on: ../data/train/trainall_data_38
+Previus k: 38
+L: 39000
+U: 40000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_39
+Stored on: ../data/train/trainall_labels_39
+Stored on: ../data/train/trainall_data_39
+Previus k: 39
+L: 40000
+U: 41000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_40
+Stored on: ../data/train/trainall_labels_40
+Stored on: ../data/train/trainall_data_40
+Previus k: 40
+L: 41000
+U: 42000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_41
+Stored on: ../data/train/trainall_labels_41
+Stored on: ../data/train/trainall_data_41
+Previus k: 41
+L: 42000
+U: 43000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_42
+Stored on: ../data/train/trainall_labels_42
+Stored on: ../data/train/trainall_data_42
+Previus k: 42
+L: 43000
+U: 44000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_43
+Stored on: ../data/train/trainall_labels_43
+Stored on: ../data/train/trainall_data_43
+Previus k: 43
+L: 44000
+U: 45000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_44
+Stored on: ../data/train/trainall_labels_44
+Stored on: ../data/train/trainall_data_44
+Previus k: 44
+L: 45000
+U: 46000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_45
+Stored on: ../data/train/trainall_labels_45
+Stored on: ../data/train/trainall_data_45
+Previus k: 45
+L: 46000
+U: 47000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_46
+Stored on: ../data/train/trainall_labels_46
+Stored on: ../data/train/trainall_data_46
+Previus k: 46
+L: 47000
+U: 48000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_47
+Stored on: ../data/train/trainall_labels_47
+Stored on: ../data/train/trainall_data_47
+Previus k: 47
+L: 48000
+U: 49000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_48
+Stored on: ../data/train/trainall_labels_48
+Stored on: ../data/train/trainall_data_48
+Previus k: 48
+L: 49000
+U: 50000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_49
+Stored on: ../data/train/trainall_labels_49
+Stored on: ../data/train/trainall_data_49
+Previus k: 49
+L: 50000
+U: 51000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_50
+Stored on: ../data/train/trainall_labels_50
+Stored on: ../data/train/trainall_data_50
+Previus k: 50
+L: 51000
+U: 52000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_51
+Stored on: ../data/train/trainall_labels_51
+Stored on: ../data/train/trainall_data_51
+Previus k: 51
+L: 52000
+U: 53000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_52
+Stored on: ../data/train/trainall_labels_52
+Stored on: ../data/train/trainall_data_52
+Previus k: 52
+L: 53000
+U: 54000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_53
+Stored on: ../data/train/trainall_labels_53
+Stored on: ../data/train/trainall_data_53
+Previus k: 53
+L: 54000
+U: 55000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_54
+Stored on: ../data/train/trainall_labels_54
+Stored on: ../data/train/trainall_data_54
+Previus k: 54
+L: 55000
+U: 56000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_55
+Stored on: ../data/train/trainall_labels_55
+Stored on: ../data/train/trainall_data_55
+Previus k: 55
+L: 56000
+U: 57000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_56
+Stored on: ../data/train/trainall_labels_56
+Stored on: ../data/train/trainall_data_56
+Previus k: 56
+L: 57000
+U: 58000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_57
+Stored on: ../data/train/trainall_labels_57
+Stored on: ../data/train/trainall_data_57
+Previus k: 57
+L: 58000
+U: 59000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_58
+Stored on: ../data/train/trainall_labels_58
+Stored on: ../data/train/trainall_data_58
+Previus k: 58
+L: 59000
+U: 60000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_59
+Stored on: ../data/train/trainall_labels_59
+Stored on: ../data/train/trainall_data_59
+Previus k: 59
+L: 60000
+U: 61000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_60
+Stored on: ../data/train/trainall_labels_60
+Stored on: ../data/train/trainall_data_60
+Previus k: 60
+L: 61000
+U: 62000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_61
+Stored on: ../data/train/trainall_labels_61
+Stored on: ../data/train/trainall_data_61
+Previus k: 61
+L: 62000
+U: 63000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_62
+Stored on: ../data/train/trainall_labels_62
+Stored on: ../data/train/trainall_data_62
+Previus k: 62
+L: 63000
+U: 64000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_63
+Stored on: ../data/train/trainall_labels_63
+Stored on: ../data/train/trainall_data_63
+Previus k: 63
+L: 64000
+U: 65000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_64
+Stored on: ../data/train/trainall_labels_64
+Stored on: ../data/train/trainall_data_64
+Previus k: 64
+L: 65000
+U: 66000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_65
+Stored on: ../data/train/trainall_labels_65
+Stored on: ../data/train/trainall_data_65
+Previus k: 65
+L: 66000
+U: 67000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_66
+Stored on: ../data/train/trainall_labels_66
+Stored on: ../data/train/trainall_data_66
+Previus k: 66
+L: 67000
+U: 68000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_67
+Stored on: ../data/train/trainall_labels_67
+Stored on: ../data/train/trainall_data_67
+Previus k: 67
+L: 68000
+U: 69000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_68
+Stored on: ../data/train/trainall_labels_68
+Stored on: ../data/train/trainall_data_68
+Previus k: 68
+L: 69000
+U: 70000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_69
+Stored on: ../data/train/trainall_labels_69
+Stored on: ../data/train/trainall_data_69
+Previus k: 69
+L: 70000
+U: 71000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_70
+Stored on: ../data/train/trainall_labels_70
+Stored on: ../data/train/trainall_data_70
+Previus k: 70
+L: 71000
+U: 72000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_71
+Stored on: ../data/train/trainall_labels_71
+Stored on: ../data/train/trainall_data_71
+Previus k: 71
+L: 72000
+U: 73000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_72
+Stored on: ../data/train/trainall_labels_72
+Stored on: ../data/train/trainall_data_72
+Previus k: 72
+L: 73000
+U: 74000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_73
+Stored on: ../data/train/trainall_labels_73
+Stored on: ../data/train/trainall_data_73
+Previus k: 73
+L: 74000
+U: 75000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_74
+Stored on: ../data/train/trainall_labels_74
+Stored on: ../data/train/trainall_data_74
+Previus k: 74
+L: 75000
+U: 76000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_75
+Stored on: ../data/train/trainall_labels_75
+Stored on: ../data/train/trainall_data_75
+Previus k: 75
+L: 76000
+U: 77000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_76
+Stored on: ../data/train/trainall_labels_76
+Stored on: ../data/train/trainall_data_76
+Previus k: 76
+L: 77000
+U: 78000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_77
+Stored on: ../data/train/trainall_labels_77
+Stored on: ../data/train/trainall_data_77
+Previus k: 77
+L: 78000
+U: 79000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_78
+Stored on: ../data/train/trainall_labels_78
+Stored on: ../data/train/trainall_data_78
+Previus k: 78
+L: 79000
+U: 80000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_79
+Stored on: ../data/train/trainall_labels_79
+Stored on: ../data/train/trainall_data_79
+Previus k: 79
+L: 80000
+U: 81000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_80
+Stored on: ../data/train/trainall_labels_80
+Stored on: ../data/train/trainall_data_80
+Previus k: 80
+L: 81000
+U: 82000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_81
+Stored on: ../data/train/trainall_labels_81
+Stored on: ../data/train/trainall_data_81
+Previus k: 81
+L: 82000
+U: 83000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_82
+Stored on: ../data/train/trainall_labels_82
+Stored on: ../data/train/trainall_data_82
+Previus k: 82
+L: 83000
+U: 84000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_83
+Stored on: ../data/train/trainall_labels_83
+Stored on: ../data/train/trainall_data_83
+Previus k: 83
+L: 84000
+U: 85000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_84
+Stored on: ../data/train/trainall_labels_84
+Stored on: ../data/train/trainall_data_84
+Previus k: 84
+L: 85000
+U: 86000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_85
+Stored on: ../data/train/trainall_labels_85
+Stored on: ../data/train/trainall_data_85
+Previus k: 85
+L: 86000
+U: 87000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_86
+Stored on: ../data/train/trainall_labels_86
+Stored on: ../data/train/trainall_data_86
+Previus k: 86
+L: 87000
+U: 88000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_87
+Stored on: ../data/train/trainall_labels_87
+Stored on: ../data/train/trainall_data_87
+Previus k: 87
+L: 88000
+U: 89000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_88
+Stored on: ../data/train/trainall_labels_88
+Stored on: ../data/train/trainall_data_88
+Previus k: 88
+L: 89000
+U: 90000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_89
+Stored on: ../data/train/trainall_labels_89
+Stored on: ../data/train/trainall_data_89
+Previus k: 89
+L: 90000
+U: 91000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_90
+Stored on: ../data/train/trainall_labels_90
+Stored on: ../data/train/trainall_data_90
+Previus k: 90
+L: 91000
+U: 92000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_91
+Stored on: ../data/train/trainall_labels_91
+Stored on: ../data/train/trainall_data_91
+Previus k: 91
+L: 92000
+U: 93000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_92
+Stored on: ../data/train/trainall_labels_92
+Stored on: ../data/train/trainall_data_92
+Previus k: 92
+L: 93000
+U: 94000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_93
+Stored on: ../data/train/trainall_labels_93
+Stored on: ../data/train/trainall_data_93
+Previus k: 93
+L: 94000
+U: 95000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/train/trainall_ids_94
+Stored on: ../data/train/trainall_labels_94
+Stored on: ../data/train/trainall_data_94
+Previus k: 94
+Inside k: 94
+Stored on: ../data/train/trainall_ids_95
+Stored on: ../data/train/trainall_labels_95
+Stored on: ../data/train/trainall_data_95
+(373,)
+(373,)
+(373, 435)
+
+9
+1373
+338.157
+
+0
+44
+-0.996753
+
+16.905
+-16.1639
+435
+435
+(95373, 435)
+TOTAL FEATURES: 95373
+TOTAL FILES: 96
+(ON ORIGINAL MAT): (95373, 437)
+(Normalized with computed u and std.dev)
+./HOG_NPY/test_per_class_npy_file_list.txt
+../data/test
+(4400, 437)
+(7600, 437)
+(11700, 437)
+(15200, 437)
+(18300, 437)
+(22600, 437)
+(26900, 437)
+(30400, 437)
+(34100, 437)
+(38900, 437)
+9.0
+0.0
+9.0
+0.0
+9.0
+0.0
+9.0
+0.0
+
+9
+1261
+318.572
+
+0
+0
+-0.917429
+
+15.4878
+-14.9863
+435
+435
+(38900, 435)
+../data/test
+Creating output directory...../data/test
+N_packets: 38
+Remain: 900
+L: 0
+U: 1000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/test/test_ids_00
+Stored on: ../data/test/test_labels_00
+Stored on: ../data/test/test_data_00
+Previus k: 0
+L: 1000
+U: 2000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/test/test_ids_01
+Stored on: ../data/test/test_labels_01
+Stored on: ../data/test/test_data_01
+Previus k: 1
+L: 2000
+U: 3000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/test/test_ids_02
+Stored on: ../data/test/test_labels_02
+Stored on: ../data/test/test_data_02
+Previus k: 2
+L: 3000
+U: 4000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/test/test_ids_03
+Stored on: ../data/test/test_labels_03
+Stored on: ../data/test/test_data_03
+Previus k: 3
+L: 4000
+U: 5000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/test/test_ids_04
+Stored on: ../data/test/test_labels_04
+Stored on: ../data/test/test_data_04
+Previus k: 4
+L: 5000
+U: 6000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/test/test_ids_05
+Stored on: ../data/test/test_labels_05
+Stored on: ../data/test/test_data_05
+Previus k: 5
+L: 6000
+U: 7000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/test/test_ids_06
+Stored on: ../data/test/test_labels_06
+Stored on: ../data/test/test_data_06
+Previus k: 6
+L: 7000
+U: 8000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/test/test_ids_07
+Stored on: ../data/test/test_labels_07
+Stored on: ../data/test/test_data_07
+Previus k: 7
+L: 8000
+U: 9000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/test/test_ids_08
+Stored on: ../data/test/test_labels_08
+Stored on: ../data/test/test_data_08
+Previus k: 8
+L: 9000
+U: 10000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/test/test_ids_09
+Stored on: ../data/test/test_labels_09
+Stored on: ../data/test/test_data_09
+Previus k: 9
+L: 10000
+U: 11000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/test/test_ids_10
+Stored on: ../data/test/test_labels_10
+Stored on: ../data/test/test_data_10
+Previus k: 10
+L: 11000
+U: 12000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/test/test_ids_11
+Stored on: ../data/test/test_labels_11
+Stored on: ../data/test/test_data_11
+Previus k: 11
+L: 12000
+U: 13000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/test/test_ids_12
+Stored on: ../data/test/test_labels_12
+Stored on: ../data/test/test_data_12
+Previus k: 12
+L: 13000
+U: 14000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/test/test_ids_13
+Stored on: ../data/test/test_labels_13
+Stored on: ../data/test/test_data_13
+Previus k: 13
+L: 14000
+U: 15000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/test/test_ids_14
+Stored on: ../data/test/test_labels_14
+Stored on: ../data/test/test_data_14
+Previus k: 14
+L: 15000
+U: 16000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/test/test_ids_15
+Stored on: ../data/test/test_labels_15
+Stored on: ../data/test/test_data_15
+Previus k: 15
+L: 16000
+U: 17000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/test/test_ids_16
+Stored on: ../data/test/test_labels_16
+Stored on: ../data/test/test_data_16
+Previus k: 16
+L: 17000
+U: 18000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/test/test_ids_17
+Stored on: ../data/test/test_labels_17
+Stored on: ../data/test/test_data_17
+Previus k: 17
+L: 18000
+U: 19000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/test/test_ids_18
+Stored on: ../data/test/test_labels_18
+Stored on: ../data/test/test_data_18
+Previus k: 18
+L: 19000
+U: 20000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/test/test_ids_19
+Stored on: ../data/test/test_labels_19
+Stored on: ../data/test/test_data_19
+Previus k: 19
+L: 20000
+U: 21000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/test/test_ids_20
+Stored on: ../data/test/test_labels_20
+Stored on: ../data/test/test_data_20
+Previus k: 20
+L: 21000
+U: 22000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/test/test_ids_21
+Stored on: ../data/test/test_labels_21
+Stored on: ../data/test/test_data_21
+Previus k: 21
+L: 22000
+U: 23000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/test/test_ids_22
+Stored on: ../data/test/test_labels_22
+Stored on: ../data/test/test_data_22
+Previus k: 22
+L: 23000
+U: 24000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/test/test_ids_23
+Stored on: ../data/test/test_labels_23
+Stored on: ../data/test/test_data_23
+Previus k: 23
+L: 24000
+U: 25000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/test/test_ids_24
+Stored on: ../data/test/test_labels_24
+Stored on: ../data/test/test_data_24
+Previus k: 24
+L: 25000
+U: 26000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/test/test_ids_25
+Stored on: ../data/test/test_labels_25
+Stored on: ../data/test/test_data_25
+Previus k: 25
+L: 26000
+U: 27000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/test/test_ids_26
+Stored on: ../data/test/test_labels_26
+Stored on: ../data/test/test_data_26
+Previus k: 26
+L: 27000
+U: 28000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/test/test_ids_27
+Stored on: ../data/test/test_labels_27
+Stored on: ../data/test/test_data_27
+Previus k: 27
+L: 28000
+U: 29000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/test/test_ids_28
+Stored on: ../data/test/test_labels_28
+Stored on: ../data/test/test_data_28
+Previus k: 28
+L: 29000
+U: 30000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/test/test_ids_29
+Stored on: ../data/test/test_labels_29
+Stored on: ../data/test/test_data_29
+Previus k: 29
+L: 30000
+U: 31000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/test/test_ids_30
+Stored on: ../data/test/test_labels_30
+Stored on: ../data/test/test_data_30
+Previus k: 30
+L: 31000
+U: 32000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/test/test_ids_31
+Stored on: ../data/test/test_labels_31
+Stored on: ../data/test/test_data_31
+Previus k: 31
+L: 32000
+U: 33000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/test/test_ids_32
+Stored on: ../data/test/test_labels_32
+Stored on: ../data/test/test_data_32
+Previus k: 32
+L: 33000
+U: 34000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/test/test_ids_33
+Stored on: ../data/test/test_labels_33
+Stored on: ../data/test/test_data_33
+Previus k: 33
+L: 34000
+U: 35000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/test/test_ids_34
+Stored on: ../data/test/test_labels_34
+Stored on: ../data/test/test_data_34
+Previus k: 34
+L: 35000
+U: 36000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/test/test_ids_35
+Stored on: ../data/test/test_labels_35
+Stored on: ../data/test/test_data_35
+Previus k: 35
+L: 36000
+U: 37000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/test/test_ids_36
+Stored on: ../data/test/test_labels_36
+Stored on: ../data/test/test_data_36
+Previus k: 36
+L: 37000
+U: 38000
+Q: 1000
+(1000,)
+(1000,)
+(1000, 435)
+Stored on: ../data/test/test_ids_37
+Stored on: ../data/test/test_labels_37
+Stored on: ../data/test/test_data_37
+Previus k: 37
+Inside k: 37
+Stored on: ../data/test/test_ids_38
+Stored on: ../data/test/test_labels_38
+Stored on: ../data/test/test_data_38
+(900,)
+(900,)
+(900, 435)
+
+9
+1261
+318.572
+
+0
+0
+-0.917429
+
+15.4878
+-14.9863
+435
+435
+(38900, 435)
+TOTAL FEATURES: 38900
+TOTAL FILES: 39
+(ON ORIGINAL MAT): (38900, 437)
+(Normalized with given u and std.dev)

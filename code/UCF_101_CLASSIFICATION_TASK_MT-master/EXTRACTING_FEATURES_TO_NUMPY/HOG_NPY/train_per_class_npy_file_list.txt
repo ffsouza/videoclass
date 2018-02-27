@@ -1,0 +1,10 @@
+./HOG_NPY/train_per_class/ApplyEyeMakeup/data_0.npy
+./HOG_NPY/train_per_class/ApplyLipstick/data_1.npy
+./HOG_NPY/train_per_class/Archery/data_2.npy
+./HOG_NPY/train_per_class/BabyCrawling/data_3.npy
+./HOG_NPY/train_per_class/BalanceBeam/data_4.npy
+./HOG_NPY/train_per_class/BandMarching/data_5.npy
+./HOG_NPY/train_per_class/BaseballPitch/data_6.npy
+./HOG_NPY/train_per_class/Basketball/data_7.npy
+./HOG_NPY/train_per_class/BasketballDunk/data_8.npy
+./HOG_NPY/train_per_class/BenchPress/data_9.npy

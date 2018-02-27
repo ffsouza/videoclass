@@ -1,0 +1,15 @@
+optimizer : GRADIENT_DESCENT
+stopcondition {
+  all_processed: false
+  steps: 640000 
+}
+train: true
+batchsize: 250
+data_proto: "/home/jjorge/deepnet-master/UCF_EXPERIMENTS_RANDOM_1000_II/net/conf/random_features_1000.pbtxt"
+eval_after: 32000
+checkpoint_after: 320000
+checkpoint_directory: "/home/jjorge/deepnet-master/UCF_EXPERIMENTS_RANDOM_1000_I/net/train_with_validation/models"
+show_after: 0
+randomize: true
+verbose: false
+get_last_piece: true

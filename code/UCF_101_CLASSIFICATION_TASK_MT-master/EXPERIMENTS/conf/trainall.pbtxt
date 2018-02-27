@@ -1,0 +1,16 @@
+optimizer : GRADIENT_DESCENT
+stopcondition {
+  all_processed: false
+  steps: 757240
+}
+train: true
+batchsize: 250
+data_proto: "/home/jjorge/UCF_EXPERIMENTS_HOG_features/net/conf/hog_features.pbtxt"
+eval_after: 37862
+checkpoint_after: 378620
+checkpoint_directory: "/home/jjorge/UCF_EXPERIMENTS_HOG_features/net/trainall/models"
+show_after: 0
+randomize: true
+verbose: false
+get_last_piece: true
+

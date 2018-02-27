@@ -1,0 +1,65 @@
+This is a python script to extract and sampled Improved Trajectory features (http://lear.inrialpes.fr/people/wang/improved_trajectories) from videos.
+
+What does the script do?
+	Ideally, we want the script to extract Improved Trajectory features by the code provide by http://lear.inrialpes.fr/people/wang/improved_trajectories, 
+	and then select the N_selected features from all the features according to some parameters (alpha).
+
+	However, as we haven't decide what is the metric to do the selection, we currently do a randomly sampling on all the extracted features.
+
+Parameters:
+	path_video : path to the video 
+	n_selected : number of feature to be selected
+	alpha      : a parameter to do the selection. For now, it is a dummy
+	trajectory_length : The length to be tracked
+	stride     : The stride for dense sampling feature points
+	neighborhood_size : The neighborhood size for computing the descriptor
+	spatial_cells  : The number of cells in the nxy axis
+	temporal_cells : The number of cells in the nt axis
+	output_path : path of the output file
+
+A demo could be: python sample_features.py ./video.avi 100 2 15 5 32 2 3 ./output.features
+
+
+
+Feature format:
+
+	frameNum mean_x mean_y var_x var_y length scale x_pos y_pos t_pos Trajectory HOG HOF MBHx MBHy
+
+	The first 10 elements are information about the trajectory:
+
+	frameNum:     The trajectory ends on which frame
+	mean_x:       The mean value of the x coordinates of the trajectory
+	mean_y:       The mean value of the y coordinates of the trajectory
+	var_x:        The variance of the x coordinates of the trajectory
+	var_y:        The variance of the y coordinates of the trajectory
+	length:       The length of the trajectory
+	scale:        The trajectory is computed on which scale
+	x_pos:        The normalized x position w.r.t. the video (0~0.999), for spatio-temporal pyramid 
+	y_pos:        The normalized y position w.r.t. the video (0~0.999), for spatio-temporal pyramid 
+	t_pos:        The normalized t position w.r.t. the video (0~0.999), for spatio-temporal pyramid
+	The following element are five descriptors concatenated one by one:
+
+	Trajectory:    2x[trajectory length] (default 30 dimension) 
+	HOG:           8x[spatial cells]x[spatial cells]x[temporal cells] (default 96 dimension)
+	HOF:           9x[spatial cells]x[spatial cells]x[temporal cells] (default 108 dimension)
+	MBHx:          8x[spatial cells]x[spatial cells]x[temporal cells] (default 96 dimension)
+	MBHy:          8x[spatial cells]x[spatial cells]x[temporal cells] (default 96 dimension)
+
+
+NOTE: You SHOULD put THIS python script into the folder that contains DenseTracStab
+
+
+HOW to install the software:
+
+	Actually, this script is only a warpper of the Improve Trajectory binary. You need to install Improved Trajectory (See http://lear.inrialpes.fr/people/wang/improved_trajectories)
+
+	TO install Improved Trajectory, openCV and ffmpeg is required. Here is the guide I used to install openCV and ffmpeg: 
+		http://www.ozbotz.org/opencv-installation/
+		http://www.ozbotz.org/opencv-install-troubleshooting/
+		http://www.cnblogs.com/liu-jun/p/3489675.html ( Hehe, it is in Chinese...)
+        BTW, I used openCV-2.4.9, ffmpeg-0.11.1
+
+
+ 
+
+

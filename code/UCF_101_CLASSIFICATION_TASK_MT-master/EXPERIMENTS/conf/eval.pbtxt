@@ -1,0 +1,10 @@
+stopcondition {
+  all_processed: true
+}
+train: false 
+batchsize: 1
+data_proto: "/home/jjorge/UCF_EXPERIMENTS_HOG_features/net/conf/hog_features.pbtxt"
+verbose: false
+randomize: false
+get_last_piece: true
+

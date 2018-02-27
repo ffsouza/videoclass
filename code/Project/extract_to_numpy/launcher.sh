@@ -1,0 +1,17 @@
+#!/bin/bash
+
+cd /home/jjorge/HOG_FEA
+
+PATH_TO_ALL_VIDEOS_INFO="data_info/all_videos.txt"
+PATH_TO_VIDEOS_TRAIN_LIST="data_info/trainlist01.txt"
+PATH_TO_VIDEOS_TEST_LIST="data_info/testlist01.txt"
+PATH_TO_CLASS_LIST="data_info/classInd.txt"
+
+PATH_TO_FEATURES="/home/jjorge/HOG_FEA/UCF-101"
+OUTPUT_TRAIN_PATH="/home/jjorge/HOG_FEA/HOG_NPY/train_per_class"
+OUTPUT_TEST_PATH="/home/jjorge/HOG_FEA/HOG_NPY/test_per_class"
+
+N_FEATURES=50
+
+python fea2numpy.py $PATH_TO_ALL_VIDEOS_INFO $PATH_TO_VIDEOS_TRAIN_LIST $PATH_TO_CLASS_LIST $PATH_TO_FEATURES $N_FEATURES $OUTPUT_TRAIN_PATH
+#python fea2numpy.py $PATH_TO_ALL_VIDEOS_INFO $PATH_TO_VIDEOS_TEST_LIST  $PATH_TO_CLASS_LIST $PATH_TO_FEATURES $N_FEATURES $OUTPUT_TEST_PATH

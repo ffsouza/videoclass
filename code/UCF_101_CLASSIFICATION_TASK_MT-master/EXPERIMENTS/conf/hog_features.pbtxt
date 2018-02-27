@@ -1,0 +1,73 @@
+# Sample data pbtxt file.name: "random_features"
+gpu_memory: "0.25G"  # Upper bound on gpu memory use.
+main_memory: "30G"  # Upper bound on main memory use.
+
+data {
+  name: "trainall_data"
+  file_pattern: "/home/jjorge/HOG_features/features_data/train/trainall_data_*.npy"
+  size: 9465369
+  dimensions: 435
+  sizeX: 0
+}
+
+data {
+  name: "trainall_labels"
+  file_pattern: "/home/jjorge/HOG_features/features_data/train/trainall_labels_*.npy"
+  size: 9465369
+  dimensions: 1
+  num_labels: 101
+  sparse: true
+}
+
+data {
+  name: "train_data"
+  file_pattern: "/home/jjorge/HOG_features/features_data/train/trainall_data_[0-7]*.npy"
+  size: 8000000
+  dimensions: 435
+  sizeX: 0
+}
+
+data {
+  name: "train_labels"
+  file_pattern: "/home/jjorge/HOG_features/features_data/train/trainall_labels_[0-7]*.npy"
+  size: 8000000
+  dimensions: 1
+  num_labels: 101
+  sparse: true
+}
+
+data {
+  name: "valid_data"
+  file_pattern: "/home/jjorge/HOG_features/features_data/train/trainall_data_[89]*.npy"
+  size: 1465369
+  dimensions: 435
+  sizeX: 0
+}
+
+data {
+  name: "valid_labels"
+  file_pattern: "/home/jjorge/HOG_features/features_data/train/trainall_labels_[89]*.npy"
+  size: 1465369
+  dimensions: 1
+  num_labels: 101
+  sparse: true
+}
+
+data {
+  name: "test_data"
+  file_pattern: "/home/jjorge/HOG_features/features_data/test/test_data_*.npy"
+  size: 3744089
+  dimensions: 435
+  sizeX: 0
+}
+
+data {
+  name: "test_labels"
+  file_pattern: "/home/jjorge/HOG_features/features_data/test/test_labels_*.npy"
+  size: 3744089
+  dimensions: 1
+  num_labels: 101
+  sparse: true
+}
+
+
