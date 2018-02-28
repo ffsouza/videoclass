@@ -92,7 +92,7 @@ from sklearn.svm import SVC
 from sklearn.datasets import load_digits
 from sklearn.model_selection import learning_curve
 from sklearn.model_selection import ShuffleSplit
-
+import numpy as np
 
 import pandas as pd
 
@@ -101,41 +101,128 @@ os.environ['TF_CPP_MIN_LOG_LEVEL']='2' #To suppress warnings about CPU instructi
 import re
 import numpy as np
 #for appleeyemakeup
-f=open("./CALEB/code/UCF_101_CLASSIFICATION_TASK_MT-master/EXTRACTING_FEATURES_TO_NUMPY/HOG_FEA/ApplyEyeMakeup/v_ApplyEyeMakeup_g0"+str(1)+"_c0"+str(1)+".fea","r")
-a=open("./v_ApplyLipstick_g01_c01.fea","r")
-b=open("./v_Archery_g01_c01.fea","r")
-c=open("./v_BabyCrawling_g01_c01.fea","r")
-d=open("./v_BalanceBeam_g01_c01.fea","r")
-print(f.read())
-#data=f.read().split("\n")
-data=f.read().split("\t")
-data1=a.read().split("\t")
-data2=b.read().split("\t")
-data3=c.read().split("\t")
-data4=d.read().split("\t")
-#ans=re.split("\t \n",f)
-#data.trim("\n")
-len(data)
-len(data1)
-len(data2)
-len(data3)
-len(data4)
+a=[]
+data0=[]
+count=-1
+for i in range(1,26):
+      for j in range(1,5):
+            count=count+1
+            if(i<10):
+                  #a.append
+                  d=open("./UCF_101_CLASSIFICATION_TASK_MT-master/EXTRACTING_FEATURES_TO_NUMPY/HOG_FEA/ApplyEyeMakeup/v_ApplyEyeMakeup_g0"+str(i)+"_c0"+str(j)+".fea","r")
+                  a.append(d)
+            else:
+                  d=open("./UCF_101_CLASSIFICATION_TASK_MT-master/EXTRACTING_FEATURES_TO_NUMPY/HOG_FEA/ApplyEyeMakeup/v_ApplyEyeMakeup_g"+str(i)+"_c0"+str(j)+".fea","r")
+                  a.append(d)
+            data0.append(a[count].read().split("\t"))
+#data=data[:][0:3]
+#print(len(data[0]))
+#print(len(data[99]))
+#print((data[99][43600]))
+#jef=data[:][0:43]
+#print(len(jef[0]))
+b=[]
+data1=[]
+count=-1
+for i in range(1,21):
+      for j in range(1,5):
+            count=count+1
+            if(i<10):
+                  d=open("./UCF_101_CLASSIFICATION_TASK_MT-master/EXTRACTING_FEATURES_TO_NUMPY/HOG_FEA/ApplyLipstick/v_ApplyLipstick_g0"+str(i)+"_c0"+str(j)+".fea","r")
+                  b.append(d)
+            else:
+                  d=open("./UCF_101_CLASSIFICATION_TASK_MT-master/EXTRACTING_FEATURES_TO_NUMPY/HOG_FEA/ApplyLipstick/v_ApplyLipstick_g"+str(i)+"_c0"+str(j)+".fea","r")
+                  b.append(d)
+            data1.append(b[count].read().split("\t"))
 
-#type(data)
-#print (data)
-data=data[0:43600]
-data1=data1[0:43600]
-data2=data2[0:43600]
-data3=data3[0:43600]
-data4=data4[0:43600]
 
-print(data[0])
 
-# Creates a list containing 100frames, each of 436 features
-arr=numpy.zeros((100,436))
-print(arr.shape)
+c=[]
+data2=[]
+count=-1
+for i in range(1,26):
+      for j in range(1,5):
+            count=count+1
+            if(i<10):
+                  d=open("./UCF_101_CLASSIFICATION_TASK_MT-master/EXTRACTING_FEATURES_TO_NUMPY/HOG_FEA/BabyCrawling/v_BabyCrawling_g0"+str(i)+"_c0"+str(j)+".fea","r")
+                  c.append(d)
+            else:
+                  d=open("./UCF_101_CLASSIFICATION_TASK_MT-master/EXTRACTING_FEATURES_TO_NUMPY/HOG_FEA/BabyCrawling/v_BabyCrawling_g"+str(i)+"_c0"+str(j)+".fea","r")
+                  c.append(d)
+            data2.append(c[count].read().split("\t"))
+e=[]
+data3=[]
+count=-1
+for i in range(1,26):
+      for j in range(1,5):
+            count=count+1
+            if(i<10):
+                  d=open("./UCF_101_CLASSIFICATION_TASK_MT-master/EXTRACTING_FEATURES_TO_NUMPY/HOG_FEA/BaseballPitch/v_BaseballPitch_g0"+str(i)+"_c0"+str(j)+".fea","r")
+                  e.append(d)
+            else:
+                  d=open("./UCF_101_CLASSIFICATION_TASK_MT-master/EXTRACTING_FEATURES_TO_NUMPY/HOG_FEA/BaseballPitch/v_BaseballPitch_g"+str(i)+"_c0"+str(j)+".fea","r")
+                  e.append(d)
+            data3.append(e[count].read().split("\t"))
+f=[]
+data4=[]
+count=-1
+for i in range(1,26):
+      for j in range(1,5):
+            count=count+1
+            if(i<10):
+                  d=open("./UCF_101_CLASSIFICATION_TASK_MT-master/EXTRACTING_FEATURES_TO_NUMPY/HOG_FEA/BenchPress/v_BenchPress_g0"+str(i)+"_c0"+str(j)+".fea","r")
+                  f.append(d)
+            else:
+                  d=open("./UCF_101_CLASSIFICATION_TASK_MT-master/EXTRACTING_FEATURES_TO_NUMPY/HOG_FEA/BenchPress/v_BenchPress_g"+str(i)+"_c0"+str(j)+".fea","r")
+                  f.append(d)
+            data4.append(f[count].read().split("\t"))
+
+
+print(len(data0))
+print(len(data1))
+print(len(data2))
+print(len(data3))
+print(len(data4))
+
+fdata=np.concatenate((data0, data1,data2,data3,data4), axis=0)
+print(len(fdata[0]))
+
+
+
+
+
+# Creates a list containing 100frames for 480 dataset, each of 436 features
+great=np.zeros(((400*100),436))
+print(great.shape)
+
+for i in range(0,400):
+      for k in range(0,100):
+            for l in range(0,100):
+                  
+                  for j in range(0,436):
+                        if(i<10000):
+                              #data0
+                              #great[i+k][j]=float
+                              print(data0[k][(l*436)+j])
+                        elif(i<20000):
+                              #data2
+                              #great[i+k][j]=float
+                              print(data2[k][(l*436)+j])
+                        elif(i<30000):
+                              #data3
+                              #great[i+k][j]=float
+                              print(data3[k][(l*436)+j])
+                        else:
+                              #data4
+                              #great[i+k][j]=float
+                              print(data4[k][(l*436)+j])
+
+
+     
 #print(arr[99][435])
 #creating an  array 
+                              
+"""                              
 for r in range(0,100):
     for c in range(0,436):
         arr[r][c]=float(data[(r*436)+c])
@@ -175,12 +262,14 @@ for r in range(0,100):
 fi=np.concatenate((arr, arr1,arr2,arr3,arr4), axis=0)
 print(fi.shape)
 fi=fi[:,1:436]
+"""
 
-y=np.zeros(500)
-print(y)
+print(great[400])
+y=np.zeros(400*100)
+print(y.shae)
 count=-1
-for i in range(0,500):
-      if(i%100==0):
+for i in range(0,40000):
+      if(i%10000==0):
             count=count+1
       y[i]=count
 
