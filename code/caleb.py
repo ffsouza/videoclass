@@ -195,28 +195,24 @@ print(len(fdata[0]))
 great=np.zeros(((400*100),436))
 print(great.shape)
 
-for i in range(0,400):
+for i in range(0,4):
       for k in range(0,100):
             for l in range(0,100):
                   
                   for j in range(0,436):
-                        if(i<10000):
+                        if((i*10000)<10000):
                               #data0
-                              #great[i+k][j]=float
-                              print(data0[k][(l*436)+j])
-                        elif(i<20000):
+                              great[(i*10000)+(k*100)+l][j]=float(data0[k][(l*436)+j])
+                        elif((i*10000)<20000):
                               #data2
-                              #great[i+k][j]=float
-                              print(data2[k][(l*436)+j])
-                        elif(i<30000):
+                              great[(i*10000)+(k*100)+l][j]=float(data2[k][(l*436)+j])
+                        elif((i*10000)<30000):
                               #data3
-                              #great[i+k][j]=float
-                              print(data3[k][(l*436)+j])
+                              great[(i*10000)+(k*100)+l][j]=float(data3[k][(l*436)+j])
                         else:
                               #data4
-                              #great[i+k][j]=float
-                              print(data4[k][(l*436)+j])
-
+                              great[(i*10000)+(k*100)+l][j]=float(data4[k][(l*436)+j])
+print(great[30000][435])
 
      
 #print(arr[99][435])
@@ -264,7 +260,7 @@ print(fi.shape)
 fi=fi[:,1:436]
 """
 
-print(great[400])
+#print(great[400])
 y=np.zeros(400*100)
 print(y.shae)
 count=-1
@@ -277,7 +273,7 @@ print(y.shape)
 
 neigh = KNeighborsClassifier(n_neighbors=5,algorithm='kd_tree')
 #clf = svm.SVC(kernel='linear', C=1)
-scores = cross_val_score(neigh, fi, y, cv=5)
+scores = cross_val_score(neigh, great, y, cv=5)
 print("Accuracy: %0.2f (+/- %0.2f)" % (scores.mean(), scores.std() * 2))
 
 
